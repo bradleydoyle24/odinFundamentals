@@ -24,3 +24,9 @@ const meToo = document.createElement('div');
 
 
 content.appendChild(pinkDiv);
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function (e) {
+  console.log(e.target);
+  e.target.style.background = 'blue';
+});
